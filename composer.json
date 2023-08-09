@@ -1,0 +1,21 @@
+{
+    "name": "cblink\/gptlink-sdk",
+    "description": "chatgpt-private-server development api package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ihome",
+            "email": "hxxk@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "cblink-service/foundation": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cblink\\Service\\Develop\\": "src"
+        }
+    }
+}
