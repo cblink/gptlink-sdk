@@ -15,8 +15,8 @@ $ composer require cblink/gptlink-sdk -vvv
 use \Cblink\Service\Develop\Application;
     
 $config = [
-    'api_key' => config('api_key'),
-    'base_url' => config('base_url'),
+    'api_key' => 'xxxxxxxx',
+    'base_url' => 'https://api.gpt-link.com',
 ];
 
 $app = new Application($config);
@@ -26,7 +26,7 @@ $data = [
     'model' => 22,
     'width' => 512,
     'height' => 512,
-    'num' => 1
+    'creativity_degree' => 60
 ];
 
 // 请求数据
